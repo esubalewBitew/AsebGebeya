@@ -22,7 +22,7 @@ class SubCategories extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        elevation: 0.0,
+        elevation: 1.0,
         actions: <Widget>[
           IconButton(
             icon: const Icon(
@@ -133,9 +133,6 @@ class ProductCardHorizontal extends StatelessWidget {
                 )
               ],
             ),
-            //  AspectRatio(
-            //     aspectRatio: 1, // Maintain aspect ratio of the image
-            //     child: child),
           ),
           Padding(
             padding: const EdgeInsets.only(left: 8.0, top: 10),
