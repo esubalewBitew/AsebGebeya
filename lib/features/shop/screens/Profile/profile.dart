@@ -12,7 +12,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class Profile extends StatelessWidget {
-  const Profile({Key? key}) : super(key: key); // Corrected the key parameter
+  const Profile({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
