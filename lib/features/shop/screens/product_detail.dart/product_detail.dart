@@ -151,8 +151,7 @@ class ProductDetail extends StatelessWidget {
               Get.to(() => const CartScreen());
             },
             style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all<Color>(
-                  Colors.black), // Set background color to red
+              backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
             ),
             child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
