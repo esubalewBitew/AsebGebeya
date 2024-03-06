@@ -35,7 +35,7 @@ class BillingAddressSection extends StatelessWidget {
               child: const Image(
                 image: AssetImage(TImages.paypal),
                 fit: BoxFit.contain,
-                height: 30,
+                height: 35,
                 width: 30,
               ),
             )
