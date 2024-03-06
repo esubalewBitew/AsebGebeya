@@ -6,7 +6,7 @@ class TFirebaseException implements Exception {
   /// Constructor that takes an error code.
   TFirebaseException(this.code);
 
-  /// Get the corresponding error message based on the error code.
+  /// Get the corresponding error message based on the error codes.
   String get message {
     switch (code) {
       case 'unknown':
