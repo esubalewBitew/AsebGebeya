@@ -58,9 +58,6 @@ class ProductCardHorizontal extends StatelessWidget {
             )
           ],
         ),
-        //  AspectRatio(
-        //     aspectRatio: 1, // Maintain aspect ratio of the image
-        //     child: child),
       ),
     );
   }
