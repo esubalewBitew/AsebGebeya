@@ -15,7 +15,7 @@ class PromotionRoundedCard extends StatelessWidget {
           decoration:
               BoxDecoration(borderRadius: BorderRadius.circular(TSizes.md)),
           child: ClipRRect(
-              borderRadius: const BorderRadius.all(Radius.circular(20)),
+              borderRadius: const BorderRadius.all(Radius.circular(21)),
               child: Image(image: AssetImage(imageUrl), fit: BoxFit.cover)),
         ),
       ),
